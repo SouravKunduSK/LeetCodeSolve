@@ -1,7 +1,7 @@
 public class Solution {
     public string ReplaceWords(IList<string> dictionary, string sentence) {
-        
-        var roots = dictionary.ToList();
+         var roots = new HashSet<string>(dictionary);
+        //var roots = dictionary.ToList();
         var words = sentence.Split(" ");
         
         for(int i = 0; i < words.Length; ++i)
