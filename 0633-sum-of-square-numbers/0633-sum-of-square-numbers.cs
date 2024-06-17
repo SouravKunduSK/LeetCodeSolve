@@ -1,19 +1,18 @@
 public class Solution {
     public bool JudgeSquareSum(int c) {
+        int left = 0;
+        int right = (int)(Math.Sqrt(c));
         
-        int a, b, aSquare = 0, bSquare;
-        
-        int limit =(int) Math.Sqrt(c) + 1;
-        for(a = 0; a <= limit; a++)
+        while(left<=right)
         {
-            aSquare = a*a;
-            bSquare = c-aSquare;
+            long sumOfSquares =(long)(left*left) + (long)(right*right);
             
-            
-            b = (int) Math.Sqrt(bSquare);
-            
-            if(b*b == bSquare || a==0 && b==0)
+            if(sumOfSquares == c)
                 return true;
+            else if(sumOfSquares < c)
+                left++;
+            else
+                right--;
         }
         
         return false;
