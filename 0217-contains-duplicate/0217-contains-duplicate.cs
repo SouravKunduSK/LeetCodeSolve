@@ -1,6 +1,14 @@
 public class Solution {
     public bool ContainsDuplicate(int[] nums) {
-        return nums.GroupBy(x => x).Any(g => g.Count() > 1);
-        
+        HashSet<int> seen = new HashSet<int>();
+        foreach(var num in nums)
+        {
+            if(seen.Contains(num))
+            {
+                return true;
+            }
+            seen.Add(num);
+        }
+        return false;
     }
 }
