@@ -6,6 +6,7 @@ Practicing in LeetCode
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/SouravKunduSK/LeetCodeSolve/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/SouravKunduSK/LeetCodeSolve/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/SouravKunduSK/LeetCodeSolve/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/SouravKunduSK/LeetCodeSolve/tree/master/0018-4sum) |
@@ -14,6 +15,7 @@ Practicing in LeetCode
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/SouravKunduSK/LeetCodeSolve/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/SouravKunduSK/LeetCodeSolve/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/SouravKunduSK/LeetCodeSolve/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/SouravKunduSK/LeetCodeSolve/tree/master/0018-4sum) |
@@ -33,4 +35,8 @@ Practicing in LeetCode
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/SouravKunduSK/LeetCodeSolve/tree/master/0219-contains-duplicate-ii) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/SouravKunduSK/LeetCodeSolve/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
